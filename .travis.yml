@@ -7,4 +7,4 @@ before_script:
  - npm install -g firebase-tools
 after_success:
  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
- - npm run lh -- --perf=95 https://mspaleague.club
+ - npm run lh -- --perf=95 http://development-na-tqa1.tn.services
